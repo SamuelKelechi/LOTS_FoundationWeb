@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 const SuccessStory = () => {
   return (
@@ -14,11 +15,12 @@ const SuccessStory = () => {
       <div
         style={{
           width: "300px",
+          marginLeft: "10px",
           height: "150px",
           textAlign: "left",
-          marginRight: "10px",
           border: "1px solid lightblue",
           padding: "20px 10px",
+          margin: "5px"
         }}
       >
         <h2
@@ -26,7 +28,7 @@ const SuccessStory = () => {
             margin: "0",
           }}
         >
-          CASE STUDY
+          PILOT PROJECT ON ADVOCATING
         </h2>
         <div
           style={{
@@ -38,10 +40,19 @@ const SuccessStory = () => {
         >
           {" "}
         </div>
-        <div>
-          Lantern Leverages Andela to Rebuild Entire Platform Under 3 Months
+        <Link to="/event" style={{
+          textDecoration: "none",
+          color: "rgb(16,21,34)",
+          cursor: "pointer",
+        }}>
+          <div>
+            We are happy to announce a 6 months pilot project on Advocating the implementation of Community...
         </div>
+        </Link>
       </div>
+
+
+
       <div
         style={{
           width: "300px",
@@ -50,6 +61,7 @@ const SuccessStory = () => {
           textAlign: "left",
           border: "1px solid lightblue",
           padding: "20px 10px",
+          margin: "5px"
         }}
       >
         <h2
@@ -57,7 +69,7 @@ const SuccessStory = () => {
             margin: "0",
           }}
         >
-          CASE STUDY
+          FIRST SESSION ON COMMUNITY GOAL
         </h2>
         <div
           style={{
@@ -69,10 +81,17 @@ const SuccessStory = () => {
         >
           {" "}
         </div>
-        <div>
-          Vibes Uses Andela to Quickly Scale Team and Build Crucial Products
+        <Link to="/event" style={{
+          textDecoration: "none",
+          color: "rgb(16,21,34)",
+          cursor: "pointer",
+        }}>
+          <div>
+            Yesterday we held our first session at the Ajegunle Ikorodu #community to validate our workplan and ensure that this plan is...
         </div>
+        </Link>
       </div>
+
     </div>
   );
 };

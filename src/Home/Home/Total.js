@@ -9,7 +9,7 @@ const Total = () => {
           marginTop: "30px",
         }}
       >
-        Success Stories
+        Updates
       </center>
     </div>
   );

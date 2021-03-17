@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import TwitterIcon from "@material-ui/icons/Twitter";
@@ -34,39 +35,59 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinksItems>
-              <FooterLinkTitle> About Us </FooterLinkTitle>
-              <FooterLink to="/signin">How it work</FooterLink>
+              <FooterLinkTitle> <Link to="/" style={{
+                textDecoration: "none",
+                fontWeight: "bolder",
+                color: "white",
+                fontSize: "20px"
+              }}>Home</Link> </FooterLinkTitle>
+              {/* <FooterLink to="/signin">How it work</FooterLink>
               <FooterLink to="/signin">Testimonial</FooterLink>
               <FooterLink to="/signin">Career</FooterLink>
               <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
+              <FooterLink to="/signin">Terms of Service</FooterLink> */}
             </FooterLinksItems>
             <FooterLinksItems>
-              <FooterLinkTitle> Contact us </FooterLinkTitle>
-              <FooterLink to="/signin">How it work</FooterLink>
+              <FooterLinkTitle> <Link to="/event" style={{
+                textDecoration: "none",
+                fontWeight: "bolder",
+                color: "white",
+                fontSize: "20px"
+              }}>Events</Link> </FooterLinkTitle>
+              {/* <FooterLink to="/signin">How it work</FooterLink>
               <FooterLink to="/signin">Testimonial</FooterLink>
               <FooterLink to="/signin">Career</FooterLink>
               <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
+              <FooterLink to="/signin">Terms of Service</FooterLink> */}
             </FooterLinksItems>
           </FooterLinksWrapper>
 
           <FooterLinksWrapper>
             <FooterLinksItems>
-              <FooterLinkTitle> Videos </FooterLinkTitle>
-              <FooterLink to="/signin">How it work</FooterLink>
+              <FooterLinkTitle> <Link to="/about" style={{
+                textDecoration: "none",
+                fontWeight: "bolder",
+                color: "white",
+                fontSize: "20px"
+              }}>About</Link></FooterLinkTitle>
+              {/* <FooterLink to="/signin">How it work</FooterLink>
               <FooterLink to="/signin">Testimonial</FooterLink>
               <FooterLink to="/signin">Career</FooterLink>
               <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
+              <FooterLink to="/signin">Terms of Service</FooterLink> */}
             </FooterLinksItems>
             <FooterLinksItems>
-              <FooterLinkTitle> Social Media </FooterLinkTitle>
-              <FooterLink to="/signin">How it work</FooterLink>
+              <FooterLinkTitle> <Link to="/contact" style={{
+                textDecoration: "none",
+                fontWeight: "bolder",
+                color: "white",
+                fontSize: "20px"
+              }}>Contact</Link></FooterLinkTitle>
+              {/* <FooterLink to="/signin">How it work</FooterLink>
               <FooterLink to="/signin">Testimonial</FooterLink>
               <FooterLink to="/signin">Career</FooterLink>
               <FooterLink to="/signin">Investors</FooterLink>
-              <FooterLink to="/signin">Terms of Service</FooterLink>
+              <FooterLink to="/signin">Terms of Service</FooterLink> */}
             </FooterLinksItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
@@ -107,7 +128,7 @@ const Footer = () => {
                 <LinkedInIcon />
               </SocialIconLink> */}
 
-              <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+              <SocialIconLink href="https://www.instagram.com/lotscharityfoundation0/" target="_blank" aria-label="Instagram">
                 <InstagramIcon />
               </SocialIconLink>
             </SocialIcon>

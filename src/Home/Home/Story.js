@@ -102,7 +102,7 @@ const Story = () => {
           // backgroundColor: "blue",
           margin: "10px",
           display: "flex",
-          marginTop: "0px"
+          marginTop: "18px"
         }}
       >
         <div>
@@ -111,7 +111,7 @@ const Story = () => {
             alt="founder"
             style={{
               width: "250px",
-              height: "280px",
+              height: "260px",
               objectFit: "contain",
             }}
           />
@@ -169,7 +169,7 @@ const Story = () => {
             top: "27px"
           }}
         >
-          <h3>ICT TEACHER</h3>
+          <h3>HEAD ICT</h3>
           <div><b>Ayinla Jamiu</b></div>
         </div>
       </div>
