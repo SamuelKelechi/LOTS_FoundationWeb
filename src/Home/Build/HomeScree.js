@@ -36,7 +36,7 @@ const HomeScreen = () => {
         <SideBar isOpen={isOpen} toggle={toggle} />
         <HomeStart />
 
-        <Partner />
+        {/* <Partner /> */}
         <Capture />
         <FeatureCard />
         <Love text="Our Community" bg="#FAB43F" img={love} />

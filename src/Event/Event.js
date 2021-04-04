@@ -3,6 +3,7 @@ import "./event.css";
 import NavBar from "../Home/NavBar/index"
 import SideBar from "../Home/SideBar/SideBar"
 import Footer from "../Home/Build/Footer/index"
+import { Link } from 'react-router-dom'
 
 
 import { app } from "../Base";
@@ -80,7 +81,7 @@ function Event() {
           </div>
           </div>
           <div className="body_image">
-            <img src={pic} />
+            <img src={pic} alt="pic" />
           </div>
         </div>
         <div className="upcoming">
@@ -101,19 +102,23 @@ function Event() {
 
         <div className="card_holder">
           {uploads.map(({ id, avatar, title, content }) => (
-            <Card className={classes.root}>
+            <Card key={id} className={classes.root}>
               <CardActionArea>
-                <div
-                  style={{
-                    height: "200px",
-                    width: "100%",
-                    backgroundColor: "gray",
-                  }}
-                >
-                  <img style={{ height: "100%", width: "100%" }} src={avatar} />
-                </div>
+                <Link to={`/eventfull/${id}`}>
+                  <div
+                    style={{
+                      height: "200px",
+                      width: "100%",
+                      backgroundColor: "gray",
+                    }}
+                  >
+                    <img style={{ height: "100%", width: "100%" }} src={avatar} alt="images" />
+                  </div>
+                </Link>
                 <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
+                  <Typography gutterBottom variant="h5" component="h2" style={{
+                    textTransformed: "uppercase"
+                  }}>
                     {title}
                   </Typography>
                   <Typography variant="body2" color="textSecondary" component="p">
