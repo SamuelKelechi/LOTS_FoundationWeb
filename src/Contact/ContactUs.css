@@ -42,7 +42,7 @@
 .getInTouch {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -60,6 +60,7 @@
   color: white;
   font-weight: bolder;
   font-size: 15px;
+  text-align: center;
   z-index: 40;
 }
 
@@ -159,17 +160,19 @@
   margin-top: -20px;
   text-align: center;
 }
-.theCard > button {
+.theCard > a > button {
   height: 50px;
   width: 150px;
   align-self: center;
-  background-color: rgb(255, 8, 8);
+  background-color: #01E675;
   color: white;
   border: 0px;
   outline: none;
   font-family: Poppins;
   font-size: 15px;
   font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
 }
 .Link {
   align-self: center;

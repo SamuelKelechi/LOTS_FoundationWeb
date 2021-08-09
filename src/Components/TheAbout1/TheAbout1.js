@@ -26,7 +26,8 @@ function TheAbout1() {
       }}>Our Story </div>
       <p style={{
         textAlign: "center",
-        margin: "10px"
+        margin: "10px",
+        fontSize:"17px"
       }}>
 
         LOTS charity foundation is a registered charity organization that caters to the physiological [feeding, clothing and shelter], social, educational, psychological, medical, and emotional needs of street kids and vulnerable children. Our area of focus now in Ajeromi-ifelodun local government in a community called ‘DUSTBIN ESTATE’ in Ajegunle, Lagos state. As it ‘s name connotes, Dustbin estate is an area of refuse; a settlement in which its inhabitants build their house with planks on refuse dumps

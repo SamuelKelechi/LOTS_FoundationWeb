@@ -53,6 +53,8 @@ export default function EventFull() {
   const [uploads, setUploads] = useState(null);
 
   const { id } = useParams()
+
+  
   const getSingleData = async () => {
     const docRef = await db.doc(id);
     const docData = await docRef.get();
@@ -154,3 +156,6 @@ export default function EventFull() {
     </>
   );
 }
+
+
+

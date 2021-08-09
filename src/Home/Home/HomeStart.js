@@ -20,7 +20,7 @@ const HomeStart = () => {
           style={{
             // backgroundColor: "red",
             width: "300px",
-            height: "240px",
+            height: "250px",
             display: "flex",
             flexDirection: "column",
           }}
@@ -33,7 +33,7 @@ const HomeStart = () => {
               marginBottom: "20px",
               color: "rgb(168,142,83)",
               fontWeight: "bold",
-              marginTop: "50px"
+              marginTop: "100px",
             }}
           >
             LOTS Charity Foundation
@@ -58,6 +58,8 @@ const HomeStart = () => {
             // backgroundColor: "blue",
             width: "320px",
             height: "250px",
+            marginTop: "10px",
+            marginLeft: "30px",
           }}
         >
           <img

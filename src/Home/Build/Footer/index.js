@@ -81,8 +81,9 @@ const Footer = () => {
                 textDecoration: "none",
                 fontWeight: "bolder",
                 color: "white",
-                fontSize: "20px"
-              }}>Contact</Link></FooterLinkTitle>
+                fontSize: "20px",
+              }}>Contact</Link>
+              </FooterLinkTitle>
               {/* <FooterLink to="/signin">How it work</FooterLink>
               <FooterLink to="/signin">Testimonial</FooterLink>
               <FooterLink to="/signin">Career</FooterLink>

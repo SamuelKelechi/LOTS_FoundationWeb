@@ -12,6 +12,11 @@ const SuccessStory = () => {
         marginBottom: "20px ",
       }}
     >
+    <Link to="/event" style={{
+      textDecoration: "none",
+      color: "rgb(16,21,34)",
+      cursor: "pointer",
+    }}>
       <div
         style={{
           width: "300px",
@@ -40,19 +45,18 @@ const SuccessStory = () => {
         >
           {" "}
         </div>
-        <Link to="/event" style={{
-          textDecoration: "none",
-          color: "rgb(16,21,34)",
-          cursor: "pointer",
-        }}>
           <div>
             We are happy to announce a 6 months pilot project on Advocating the implementation of Community...
-        </div>
-        </Link>
+        </div> 
       </div>
+      </Link>
 
 
-
+      <Link to="/event" style={{
+        textDecoration: "none",
+        color: "rgb(16,21,34)",
+        cursor: "pointer",
+      }}>
       <div
         style={{
           width: "300px",
@@ -81,17 +85,11 @@ const SuccessStory = () => {
         >
           {" "}
         </div>
-        <Link to="/event" style={{
-          textDecoration: "none",
-          color: "rgb(16,21,34)",
-          cursor: "pointer",
-        }}>
           <div>
             Yesterday we held our first session at the Ajegunle Ikorodu #community to validate our workplan and ensure that this plan is...
         </div>
-        </Link>
       </div>
-
+      </Link>
     </div>
   );
 };
