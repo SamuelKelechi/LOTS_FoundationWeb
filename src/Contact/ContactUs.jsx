@@ -41,7 +41,8 @@ function ContactUs() {
               </div>
               <h3>Talk to Us</h3>
               <p>Interested in helping a child contact us now</p>
-              <Link className="Link">08034765170</Link>
+              <Link className="Link">+234 8158746613</Link>
+              <Link className="Link">+234 8146231232</Link>
             </div>
 
             <div className="theCard">
@@ -50,10 +51,17 @@ function ContactUs() {
               </div>
               <h3>Contact Child Support</h3>
               <p>
-                Sometimes you need a ittle help from your friends, a little touch
+                Sometimes you need a little help from your friends, a little touch
                 of love can change a life forever
             </p>
-              <button>Contact Support</button>
+            <a href="https://wa.me/12015548405" target="_blank" message="Hi, Just viewed your NGO Site" rel="noopener noreferrer" style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              textDecoration: "none"
+            }}>
+              <button>WhatsApp</button>
+            </a>
             </div>
           </div>
         </div>
